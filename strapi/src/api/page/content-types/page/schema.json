@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "path": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "dynamic_componets": {
+      "type": "dynamiczone",
+      "components": [
+        "dynamic.standard-text"
+      ]
+    }
+  }
+}

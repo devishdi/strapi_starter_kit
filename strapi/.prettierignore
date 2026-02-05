@@ -1,0 +1,11 @@
+# Ignore artifacts:
+.strapi
+config
+database
+dist
+node_modules
+src/admin
+src/components
+src/extensions
+types/generated
+

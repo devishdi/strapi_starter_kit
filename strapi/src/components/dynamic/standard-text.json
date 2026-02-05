@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_dynamic_standard_texts",
+  "info": {
+    "displayName": "Standard Text"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

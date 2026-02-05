@@ -1,0 +1,45 @@
+{
+  "name": "strapi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "NODE_ENV=production ENV=production strapi start",
+    "build": "strapi build",
+    "build-production": "NODE_ENV=production ENV=production strapi build",
+    "strapi": "strapi",
+    "cs": "config-sync",
+    "lint": "eslint .",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write --list-different .",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^7.0.0",
+    "@strapi-community/plugin-seo": "^2.1.1",
+    "@strapi/plugin-cloud": "5.35.0",
+    "@strapi/plugin-users-permissions": "5.35.0",
+    "@strapi/strapi": "5.35.0",
+    "mysql2": "3.9.8",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.0.0 <=24.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "e78ae697-6dbd-461d-acd7-4d85a502ecf8",
+    "installId": "7d59e1148dd6c9ed292b64291c6956d74e7d6fd105edc839f3ec0eaa667548c5"
+  }
+}
